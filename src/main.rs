@@ -16,8 +16,6 @@ extern "C" {
     fn freeList(linkedList: *mut LinkedList);
     fn get(LinkedList: *mut LinkedList, index: i32) -> Position;
     fn searchList(LinkedList: *mut LinkedList, x: i32, y: i32) -> *mut Position;
-
-    //Position get(LinkedList* linkedList, int index);
 }
 fn main() {
     let list;
