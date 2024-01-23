@@ -34,7 +34,7 @@ fn main() {
         println!("pos: ({}, {})", (*pos2).x, (*pos2).y);
 
         if let Some(pos3) = searchList(list, 200, 35).as_ref() {
-            println!("pos: ({}, {})", (*pos).x, (*pos3).y);
+            println!("pos: ({}, {})", (*pos3).x, (*pos3).y);
         }
 
         freeList(list);
